@@ -41,14 +41,6 @@ This document provides a quick reference for all 8 lab sessions in the TÖV606M 
 - Create workspace directory structure
 - Test basic SLURM commands
 
-**Key Commands:**
-```bash
-ssh-keygen -t ed25519 -C "your_email@hi.is"
-ssh jureca
-cd $PROJECT_training2600
-mkdir -p my_workspace/{data,notebooks,scripts,models,results}
-```
-
 ---
 
 ### Lab 2: Jupyter-JSC and Git Basics
@@ -70,15 +62,6 @@ mkdir -p my_workspace/{data,notebooks,scripts,models,results}
 - Practice Git workflow
 - Explore JupyterLab interface
 - Install additional packages in venv
-
-**Key Commands:**
-```bash
-# In Jupyter-JSC terminal
-git clone https://github.com/YOUR_ORG/iceland-ml-course.git
-python -m venv ~/envs/ml_eo_course
-source ~/envs/ml_eo_course/bin/activate
-python -m ipykernel install --user --name=ml_eo_course
-```
 
 ---
 
@@ -108,7 +91,7 @@ python -m ipykernel install --user --name=ml_eo_course
 
 ---
 
-### Lab 4: Data Preprocessing and Patch Extraction
+### Lab 4: Data Preprocessing and Patch Extraction (Not Finalised)
 **Location:** [`notebooks/iceland-ml/lab4_preprocessing_patches.ipynb`](../../notebooks/iceland-ml/lab4_preprocessing_patches.ipynb)
 
 **Before Lab:**
@@ -137,7 +120,7 @@ python -m ipykernel install --user --name=ml_eo_course
 
 ---
 
-### Lab 5.1: Baseline Model Training
+### Lab 5.1: Baseline Model Training (Not Finalised)
 **Location:** [`notebooks/iceland-ml/lab5.1_baseline_training.ipynb`](../../notebooks/iceland-ml/lab5.1_baseline_training.ipynb)
 
 **Before Lab:**
@@ -165,7 +148,7 @@ python -m ipykernel install --user --name=ml_eo_course
 
 ---
 
-### Lab 5.2: Model Evaluation Metrics
+### Lab 5.2: Model Evaluation Metrics (Not Finalised)
 **Location:** [`notebooks/iceland-ml/lab5.2_model_evaluation.ipynb`](../../notebooks/iceland-ml/lab5.2_model_evaluation.ipynb)
 
 **Before Lab:**
